@@ -1,2 +1,2 @@
-My Dendron Notes
-Chris Brinkley
+My Dendron Notes  
+Chris Brinkley  
