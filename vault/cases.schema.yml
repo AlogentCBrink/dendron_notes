@@ -1,0 +1,11 @@
+version: 1
+imports: []
+schemas:
+  - id: cases
+    title: cases
+    parent: root
+    children:
+      - pattern: "CS*"
+        template: templates.tpcase
+      - pattern: "SF*"
+        template: templates.sfcase 
