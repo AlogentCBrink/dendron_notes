@@ -2,11 +2,12 @@
 id: pgUXitG0La3rm1ClXqIvA
 title: CS1092574
 desc: 'New firewall object creation'
-updated: 1644507275181
+updated: 1645727998843
 created: 1644507203599
 ---
 ### Description:  
 Create new firewall objects for Prod-Web-AWR01/02 and Prod-App-AWR01  
+^description
 ```
 in NSH:
 Please remove object Prod-DM-IP01 from lhg_App_IP_Main

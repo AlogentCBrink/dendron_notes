@@ -2,7 +2,7 @@
 id: Z4gCt1g1Pnt0szbnjkfUT
 title: Servers
 desc: ''
-updated: 1644507775570
+updated: 1645730535835
 created: 1644506384931
 ---
 ## WEB
@@ -19,5 +19,10 @@ DA2: 10.210.6.100
 
 ## DATA
 ### Prod-FS-RD01
-Shared w/ LFI RD/MDS, and Unify  
-New Volume (100 GB)
+New Volume (100 GB)  
+* Disk 4
+* E:\
+* GPT
+* Shared as \\Prod-FS-RD01.alogentcloud.local\AWARE
+* Added Service account and MFT
+* Enabled "access-based enumeration" and "encrypted access"
