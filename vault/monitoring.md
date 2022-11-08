@@ -12,7 +12,7 @@ created: 1644852988329
 
 
 https://www.postgresql.org/download/linux/ubuntu/
-
+https://stackoverflow.com/questions/69754628/psql-error-connection-to-server-on-socket-tmp-s-pgsql-5432-failed-no-such
 
 
 http://10.90.3.20/zabbix/index.php
@@ -22,4 +22,4 @@ https://www.zabbix.com/documentation/6.0/en/manual/quickstart/login
 https://www.zabbix.com/integrations/msteams#:~:text=%20Setting%20up%20webhook%20in%20Zabbix%20%201,URL%20HERE%3E%20with%20the%20incoming%20webhook...%20More%20
 
 
-https://stackoverflow.com/questions/69754628/psql-error-connection-to-server-on-socket-tmp-s-pgsql-5432-failed-no-such
+

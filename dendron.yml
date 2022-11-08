@@ -18,17 +18,19 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
+    templateHierarchy: template
 workspace:
     vaults:
+        -
+            fsPath: vault
         -
             fsPath: dendron_automation
             remote:
                 type: git
-                url: 'https://github.com/TheAlogentCloud/dendron_automation.git'
+                url: https://github.com/TheAlogentCloud/dendron_automation.git
             name: automation
-        -
-            fsPath: vault
     journal:
         dailyDomain: daily
         name: journal
@@ -58,8 +60,12 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
@@ -70,7 +76,10 @@ workspace:
     enableEditorDecorations: true
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    dendronVersion: 0.83.0
+    enableFullHierarchyNoteTitle: false
+    dendronVersion: 0.93.0
+    templateHierarchy: template
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -78,6 +87,8 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -107,3 +118,4 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
+    enableTaskNotes: true

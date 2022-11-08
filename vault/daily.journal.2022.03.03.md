@@ -2,7 +2,7 @@
 id: q8w3d5tms70bgsklob8bsn3
 title: '2022-03-03'
 desc: ''
-updated: 1646337966703
+updated: 1649867541856
 created: 1646319393895
 traitIds:
   - journalNote
@@ -15,3 +15,4 @@ traitIds:
 * [ ] Tenable AWS  
 * [ ] FG Alerting  
 * [ ] 
+

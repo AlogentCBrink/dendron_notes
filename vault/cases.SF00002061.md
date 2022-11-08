@@ -2,7 +2,7 @@
 id: besko3aix3h0rb2nevk4he9
 title: SF00002061
 desc: Dade DB Restore
-updated: 1647370062539
+updated: 1647527219831
 created: 1647364961981
 ---
 ## Link:
@@ -17,6 +17,12 @@ CAT-SQLFS01\CAT02
 I:\MSSQL13.CAT02\MSSQL\Backup\dadetest03152022
 ```
 ## Notes:
+### 03/16/2022:
+```
+@Paul Shannon​ I copied "dadetest03152022" to Prod-SQL-N03.
+Restored as "dade_nxt" onto SQL-OB2 overwriting the current "dade_nxt."
+Removed CAT user permissions and added PRODUCTION user permissions.
+```
 ### 03/15/2022:
 ```
 @Paul Shannon​ Please let us know when you would like this done.
@@ -27,4 +33,4 @@ Putting ticket on hold for now, per requestor.
 03/15/2022  
  
 ## Completed:
-
+03/16/2022

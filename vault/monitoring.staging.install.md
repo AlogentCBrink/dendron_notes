@@ -5,6 +5,8 @@ desc: ''
 updated: 1646414784883
 created: 1646409139271
 ---
+[Youtube - Install Zabbix Server(2019)](https://www.youtube.com/watch?v=yYmkFf3AEBo)
+
 ## Install Postgress SQL  
 https://www.postgresql.org/download/linux/ubuntu/  
 1. `sudo sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'`  
@@ -38,3 +40,25 @@ https://www.postgresql.org/download/linux/ubuntu/
 
 https://www.zabbix.com/documentation/6.0/en/manual/quickstart/login  
 1. add user: Chris, Judit
+
+https://www.zabbix.com/documentation/6.0/en/manual/discovery/auto_registration
+1. setup auto registration.  
+2. 
+
+
+
+## Agent (Client) Install
+https://www.zabbix.com/documentation/6.0/en/manual/installation/install_from_packages/win_msi  
+
+Windows, amd64, 6.0, OpenSSL, MSI    
+https://www.zabbix.com/download_agents?version=6.0+LTS&release=6.0.1&os=Windows&os_version=Any&hardware=amd64&encryption=OpenSSL&packaging=MSI&show_legacy=0
+
+### Agent 1
+***ST-App-LIC01***
+1. run MSI.  
+
+
+### Agent 2
+***ST-App-Main21***
+1. run MSI.  
+2. 

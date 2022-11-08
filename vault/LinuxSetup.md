@@ -15,6 +15,14 @@ cd .\Ubuntu\
 ```
 
 ## Config Linux  
+
+### Date/Time in History
+```bash
+vim ~/.bashrc
+
+add HISTTIMEFORMAT="%Y-%m-%d %T "
+```
+
 ### Install updates  
 ```bash
 sudo apt update
